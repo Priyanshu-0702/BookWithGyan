@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* Background styling */
+.add-user-bg {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+/* Card styling */
+.add-user-card {
+  width: 100%;
+  max-width: 520px;
+  padding: 40px;
+  border-radius: 16px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.add-user-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Title styling */
+.add-user-title {
+  font-weight: 600 !important;
+  margin-bottom: 24px !important;
+  color: #1e293b;
+}
+
+/* Error styling */
+.add-user-error {
+  color: #dc2626;
+  background-color: #fee2e2;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+/* Button styling */
+.add-user-button {
+  margin-top: 24px !important;
+  padding: 12px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  border-radius: 10px !important;
+  background: linear-gradient(90deg, #4f46e5, #7c3aed) !important;
+  transition: all 0.3s ease !important;
+}
+
+.add-user-button:hover {
+  background: linear-gradient(90deg, #4338ca, #6d28d9) !important;
+  transform: translateY(-2px);
+}
